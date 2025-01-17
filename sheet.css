@@ -1,4 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .paticka{
     border-style: solid;
     border-color: darkgrey;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav > button{
+
 }
